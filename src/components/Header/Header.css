@@ -1,0 +1,23 @@
+@import "../../App.css";
+
+
+
+.header-top-strip{
+    background: var(--lighter1);
+}
+
+.input-group{
+    font-size: 14px;
+    background: transparent;
+    margin-left: -40px;
+}
+
+.input-group-text{
+    font-size: 14px;
+    background: transparent;
+}
+
+.form-control{
+    margin-right: 10px;
+    width: 250px;
+}
