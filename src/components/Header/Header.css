@@ -1,9 +1,15 @@
 @import "../../App.css";
 
-
+.header-upper{
+    background: var(--lighter1);
+}
+.conteiner-xxl{
+    
+    
+}
 
 .header-top-strip{
-    background: var(--lighter1);
+     /* background: var(--lighter); */
 }
 
 .input-group{
@@ -15,9 +21,26 @@
 .input-group-text{
     font-size: 14px;
     background: transparent;
+    color: var(--search);
 }
 
 .form-control{
-    margin-right: 10px;
+    /* margin-right: 5px; */
     width: 250px;
+}
+
+.nav-links a{
+    font-size:16px;
+    text-transform:Uppercase;
+    color:var(--primary1);  
+}
+
+.icon-list{
+    font-size: 16px;
+    
+}
+
+.nav-link-list{
+    font-size: 16px;
+    color:var(--search);
 }
