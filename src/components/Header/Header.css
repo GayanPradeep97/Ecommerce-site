@@ -3,13 +3,9 @@
 .header-upper{
     background: var(--lighter1);
 }
-.conteiner-xxl{
-    
-    
-}
 
-.header-top-strip{
-     /* background: var(--lighter); */
+.header-top-strip a{
+     color: var(--primary1);
 }
 
 .input-group{
@@ -31,8 +27,8 @@
 
 .nav-links a{
     font-size:16px;
-    text-transform:Uppercase;
-    color:var(--primary1);  
+    text-transform:Uppercase; 
+    /* color: var(--primary1); */
 }
 
 .icon-list{
@@ -43,4 +39,15 @@
 .nav-link-list{
     font-size: 16px;
     color:var(--search);
+}
+
+.active{
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.inactive{
+    color: var(--primary1);
+    
 }
